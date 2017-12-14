@@ -1,0 +1,34 @@
+---
+title: 2017 12 14 19:30
+author: ''
+date: '2017-12-14'
+slug: 19-30
+categories: []
+tags: []
+---
+
+# train 3
+
+```{r setup echo=FALSE, warning=FALSE}
+library(tidyverse)
+
+```
+
+```{r plot01 echo=FALSE, warning=FALSE,  error=FALSE }
+ir=iris; names(ir)= c('sl' , 'sw' , 'pl' , 'pw' , 's') 
+
+ggplot(ir, aes(x=sl)) + 
+  geom_density(aes(fill = s),alpha = 0.65) +
+  theme_minimal()
+
+
+```
+
+
+
+
+
+
+
+
+
